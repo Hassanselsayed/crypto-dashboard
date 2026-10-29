@@ -1,6 +1,6 @@
 .app {
   border: 1px solid gray;
   border-radius: 20px;
-  height: 100vh;
+  height: calc(100vh - 18px);
   overflow: hidden;
 }

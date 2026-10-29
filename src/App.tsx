@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import LeftPane from "./features/LeftPane/LeftPane";
 
 function App() {

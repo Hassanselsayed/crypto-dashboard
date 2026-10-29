@@ -1,0 +1,14 @@
+.left-pane {
+  background-color: aliceblue;
+  width: 20%;
+  height: 100%;
+  padding: 20px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__logo {
+    margin-bottom: 20px;
+  }
+}

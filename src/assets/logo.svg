@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 120" width="200px">
+  <defs>
+    <!-- Background Gradient for Hexagon Icon -->
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4D5DFB" />
+      <stop offset="100%" stop-color="#2D3FD9" />
+    </linearGradient>
+  </defs>
+
+  <!-- ICON CONTAINER (HEXAGON) -->
+  <g transform="translate(10, 10)">
+    <!-- Main Hexagon Base -->
+    <polygon points="50,15 90,38 90,82 50,105 10,82 10,38" fill="url(#iconGrad)" rx="5" />
+    
+    <!-- Inner White Crypto/Hub Symbol -->
+    <path d="M44,40 C44,37 47,34 50,34 C53,34 56,37 56,40 L56,46 L62,46 C65,46 68,49 68,52 C68,55 65,58 62,58 L56,58 L56,62 L62,62 C65,62 68,65 68,68 C68,71 65,74 62,74 L56,74 L56,80 C56,83 53,86 50,86 C47,86 44,83 44,80 L44,74 L38,74 C35,74 32,71 32,68 C32,65 35,62 38,62 L44,62 L44,58 L38,58 C35,58 32,55 32,52 C32,49 35,46 38,46 L44,46 Z" fill="#FFFFFF" />
+    
+    <!-- Dynamic geometric accent line inside the symbol -->
+    <path d="M50,43 L50,77" stroke="#2D3FD9" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- TYPOGRAPHY (CryptoHub) -->
+  <g transform="translate(125, 76)">
+    <text font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#2A3990" letter-spacing="-1">Crypto<tspan fill="#1A237E" font-weight="800">Hub</tspan></text>
+  </g>
+</svg>
