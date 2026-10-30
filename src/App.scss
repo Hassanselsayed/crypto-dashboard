@@ -1,6 +1,11 @@
 .app {
-  border: 1px solid gray;
-  border-radius: 20px;
+  border: var(--border);
+  border-radius: var(--radius-lg);
   height: calc(100vh - 18px);
   overflow: hidden;
+  display: flex;
+
+  .page {
+    padding: 15px 20px;
+  }
 }

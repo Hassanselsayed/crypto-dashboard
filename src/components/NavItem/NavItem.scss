@@ -3,12 +3,12 @@
     align-items: center;
     gap: 10px;
 
-    color: gray;
+    color: var(--gray);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: var(--radius-sm);
 
     &.active {
-      background-color: lightsteelblue;
-      color: blue;
+      background-color: var(--blue-bg);
+      color: var(--blue);
     }
   }

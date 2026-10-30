@@ -1,8 +1,9 @@
 .left-pane {
-  background-color: aliceblue;
+  background-color: var(--main-bg);
   width: 20%;
   height: 100%;
   padding: 20px 10px;
+  border-right: var(--border);
 
   display: flex;
   flex-direction: column;

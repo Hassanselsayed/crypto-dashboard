@@ -1,3 +1,14 @@
+:root {
+  --main-bg: aliceblue;
+  --blue-bg: lightsteelblue;
+  --blue: blue;
+  --gray: gray;
+
+  --border: 1px solid var(--gray);
+  --radius-lg: 20px;
+  --radius-sm: 5px;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
