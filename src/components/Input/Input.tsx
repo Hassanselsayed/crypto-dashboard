@@ -2,14 +2,16 @@ import type { ChangeEventHandler } from "react";
 import "./Input.scss";
 
 interface InputProps {
+  className?: string;
   type: string;
   name: string;
   value: string;
-  placeholder: string;
-  handleChange: ChangeEventHandler;
+  placeholder?: string;
+  handleChange: ChangeEventHandler<HTMLInputElement>;
 }
 
 export default function Input({
+  className,
   type,
   name,
   value,
@@ -18,7 +20,7 @@ export default function Input({
 }: InputProps) {
   return (
     <input
-      className="input"
+      className={`input ${className}`}
       type={type}
       name={name}
       value={value}
